@@ -1,0 +1,8 @@
+{
+  "/api/*": {
+    "target": "https://europe-west1-st-testcase.cloudfunctions.net",
+    "secure": false,
+    "logLevel" : "debug",
+    "changeOrigin": true
+  }
+}
