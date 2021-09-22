@@ -134,33 +134,7 @@ export class RemindComponent implements OnInit, OnDestroy, AfterViewInit {
   form!: FormGroup;
   formModal!: FormGroup;
 
-  reminders: Reminder[] = [
-    // {
-    //   note: 'пойти к врачу',
-    //   date: '2021-09-22T11:16:00.000Z',
-    //   id: '12345678910',
-    //   userId: 'VSGYvHReUj7fv0IZ5d8e____'
-    // },
-    // {
-    //   note: 'пойти к ТЕРАПЕВТУ',
-    //   date: '2021-09-22T16:09:00.000Z',
-    //   id: '12345678911',
-    //   userId: 'VSGYvHReUj7fv0IZ5d8e===='
-    // },
-    // {
-    //   note: 'пойти к ЗУБНОМУ',
-    //   date: '2021-10-25T11:16:00.000Z',
-    //   id: '12345678912',
-    //   userId: 'VSGYvHReUj7fv0IZ5d8e????'
-    // }
-    // ,
-    // {
-    //   note: 'пойти к ЛОГОПЕДУ',
-    //   date: '2021-09-22T16:10:30.000Z',
-    //   id: '12345678911',
-    //   userId: 'VSGYvHReUj7fv0IZ5d8e===='
-    // },
-  ];
+  reminders: Reminder[] = [];
 
   reminderChange!: Reminder;
   flag: boolean = false;
